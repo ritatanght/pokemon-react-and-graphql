@@ -9,6 +9,7 @@ export const PokemonsContainer = () => {
   const { data: { pokemons = [] } = {} } = useQuery(GET_POKEMONS, {
     variables: { first: 9 },
   });
+
   return (
     <div className="container">
       {pokemons &&
