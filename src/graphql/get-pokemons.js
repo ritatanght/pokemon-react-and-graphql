@@ -1,8 +1,8 @@
-import gql from "graphql-tag";
+import { gql } from "@apollo/client";
 
 export const GET_POKEMONS = gql`
-  query pokemon($first: Int!) {
-    pokemon(first: $first) {
+  query pokemons($first: Int!) {
+    pokemons(first: $first) {
       id
       name
       image
