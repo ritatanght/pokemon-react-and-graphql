@@ -1,6 +1,4 @@
-// import ApolloClient from "apollo-boost";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
-// import { ApolloProvider } from "@apollo/react-hooks";
 import { PokemonsContainer } from "./containers/PokemonsContainer";
 
 function App() {
